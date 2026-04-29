@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                    
+    "module": "NodeNext",                  
+    "moduleResolution": "node16",          
+    "types": ["node"],                     
+    "esModuleInterop": true,              
+    "strict": true,                      
+    "skipLibCheck": true,                  
+    "forceConsistentCasingInFileNames": true, // Prevent issues with casing
+    "jsx": "react",                        // JSX configuration (if needed, you can remove it)
+    "resolveJsonModule": true,             // Enable importing `.json` files
+    "outDir": "./dist",                    // Output compiled files to 'dist' folder
+    "rootDir": "modular-rest-api-lisa1/src",                    
+    "ignoreDeprecations": "6.0"            // Suppress warnings about deprecated options
+  },
+  "include": ["modular-rest-api-lisa1/src/**/*", "modular-rest-api-lisa1/routes", "modular-rest-api-lisa1/index.ts"],                 
+  "exclude": ["modular-rest-api-lisa1/node_modules", "dist"]      
+}
